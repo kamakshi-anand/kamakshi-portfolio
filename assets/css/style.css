@@ -1,0 +1,171 @@
+
+*{
+    box-sizing: border-box;
+}
+header {
+    background:#4aaaa5;       
+    font-size: 28px;   
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    height: 100px;    
+ }
+h1{
+    font-size: 30px;   
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;    
+    margin-left: 0%;
+    padding-top: 20px;
+}
+.caption{
+    font-family: cursive;
+    /* color: blue; */
+}
+ #myname{
+    background:grey;  
+    width: 20%;
+    text-align: left;
+    margin-left: 300px;
+  }
+
+ hr{
+     background-color: #fff;
+     width: 100%;
+ }
+ h2{
+     margin-left: 100%;
+ }
+ #port{
+     margin-left: 20%;
+ }
+ #call{
+     margin-left: 20%;
+ }
+ .first{
+     padding-right: 100px;
+     padding-bottom: 20px;
+}
+ .second{
+     padding-bottom: 20px;
+ }
+ .third{
+    
+ }
+#left {
+    padding-right: 100px;
+    float: right;   
+    }
+#middle{
+    padding-right: 100px;
+    float: right;   
+}
+#right {
+    padding-right: 100px;
+    float: right;   
+}
+body {
+    
+        background-color : lightcoral;
+        font: "Georgia",Times New Roman,Times,serif;
+        /* color: #333333; */
+        margin: 10;
+        padding: 10;
+        width: 100%;     
+        text-align: left;
+        
+  }
+ h2 {
+    font-size: px;
+    text-align: left;
+    margin-left: 0%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    width: 95%;  
+}
+.container{
+    width: 2000px;
+    margin-left: 20%;
+    align-content: center;
+    line-height: 2.6;
+}
+
+#aboutme {
+    background-color: lightblue;
+    width: 100%;
+    padding: 50px;
+    text-justify: center;
+}
+.datacontainer{
+    background-color: lightblue;
+    width: 75.5%;
+    padding: 10px;
+    text-justify: center;
+    margin-left: 20%;
+}
+#main-bio{
+    float: left;
+    padding-bottom: 50px;
+    width: 60%;    
+}
+#bio-image1 {
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+    float: left;
+}
+#footerlan{
+    text-align: center;
+}
+.bioimage{
+    height: 170px;
+    width: 170px;  
+    margin-left: 60px; 
+}
+.glyphicon{
+    
+}
+#gallery1 {
+    width: 70%;
+    float: left;
+    margin-left: 20%;
+}
+input[type=text], select, textarea {
+ 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+footer{
+    background:#4aaaa5;       
+    position: fixed;
+    width: 100%;
+   padding-top: 20px;    
+/* overflow: auto; */
+  clear: both; 
+  bottom: 0;
+}
+.card{
+    border-radius: 75px;
+    
+}
+
+
+
+
+

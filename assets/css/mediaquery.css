@@ -1,0 +1,286 @@
+@media only screen and (max-width: 960px) {
+    body {
+        background-color:goldenrod;
+        width: 100%;
+    }
+    header {
+        background:lightskyblue;       
+        font-size: 18px;   
+        font-family: 'Georgia', Times, Times New Roman, serif;            
+        position: static;  
+     }
+     h1{
+        text-align: left;      
+        padding-left: 20%
+    }
+    h2 {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 0%;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    #port{
+        font-size: 30px;
+    }
+    #aboutmetext{
+        font-size: 24px;    
+        text-align: left;
+    }
+    #call{
+        font-size: 24px;
+    }
+    #myname{
+        margin-left: 0px;
+        background:lightskyblue;  
+        width: 100%;
+        text-align: left;
+        align-content: left;
+      
+    }
+    
+    #left{
+        padding-right: 50px;
+        float: right;  
+       }
+             
+     #middle{
+            padding-right: 50px;
+            float: right;   
+        }
+    #right {
+            padding-right: 50px;
+            float: right;   
+        }
+    .container{
+            width: 100%;        
+            align-content: center;
+            line-height: 1.8;
+            background-color: red;    
+           text-align: left;  
+           padding-left: -5%;   
+            }
+    .datacontainer{
+        width: 75%;
+    }
+     #main-bio{
+     text-align: left;
+     padding-bottom: 50px;
+     width: 60%;
+     margin-left: 0%;    
+     }  
+     #bio-image1 {
+     width: 30%;
+     height: 5%;
+     }
+            #aboutme {
+                text-align: left;
+                width: 100%;
+                padding: 10px;
+                }
+            #aboutmetext{
+                    font-size: 24px;    
+                    text-align: left;
+                    text-align: left;
+                } 
+                #aboutme {
+                    background-color:mediumseagreen;
+                    width: 100%;      
+                    text-justify: left;
+                }
+               }    
+               
+
+
+
+     
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: yellow;
+        width: 100%;
+
+    }
+    header {
+        background:lightskyblue;       
+        font-size: 18px;   
+        font-family: 'Georgia', Times, Times New Roman, serif;            
+        position: static;  
+     }
+ 
+    h1{
+        text-align: left;      
+        padding-left: 20%
+    }
+ 
+    h2 {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 0%;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+    #port{
+        font-size: 30px;
+    }
+    #aboutmetext{
+        font-size: 24px;    
+        text-align: left;
+    }
+    #myname{
+        margin-left: 0px;
+        background: lightskyblue;  
+        width: 100%;
+        text-align: left;
+        align-content: left;
+      
+    }
+
+   #left{
+    padding-right: 50px;
+    float: right;  
+   }
+         
+    #middle{
+        padding-right: 50px;
+        float: right;   
+    }
+    #right {
+        padding-right: 50px;
+        float: right;   
+    }
+    .container{
+        width: 100%;        
+        align-content: left;
+        line-height: 1.5;
+        background-color: red;    
+       text-align: left;  
+       padding-left: -5%;   
+       }
+    .datacontainer{
+        width: 100%;
+        margin-left: 10%;
+    }
+    #main-bio{
+        text-align: left;
+        padding-bottom: 50px;
+        width: 60%;
+        margin-left: 0%;    
+    }
+    #bio-image1 {
+        width: 50%;
+        height: 1%;
+    }
+    #aboutme {
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        
+        
+    }
+    #aboutmetext{
+        font-size: 24px;    
+        text-align: left;
+        text-align: left;
+    }
+    #call{
+        font-size: 24px;
+    }
+
+    #aboutme {
+        background-color: green;
+        width: 100%;      
+        text-justify: left;
+    }
+   }
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: aqua;
+        width: 100%;
+    }
+   
+    #bio-image1 {
+        width: 100%;
+        height: 1%;
+    }
+    
+    
+    
+    header {
+        background: lightskyblue;       
+        font-size: 18px;   
+        font-family: 'Georgia', Times, Times New Roman, serif;            
+        position: static;  
+     }
+ 
+    h1{
+        text-align: center;           
+       
+    }
+    h2{
+        padding-top: 2%;
+        font-size: 12px;
+    }
+    #port{
+        font-size: 30px;
+    }
+    
+    #myname{
+        margin-left: 0px;
+        background:lightskyblue;  
+        width: 100%;
+        text-align: center;
+        align-content: center;
+      
+    }
+    .container{
+        width: 100%;        
+        align-content: center;
+        line-height: 1.6;
+        background-color: red;    
+        }
+    .datacontainer{
+            widows: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    #main-bio{
+     
+        padding-bottom: 50px;
+        width: 60%;
+        margin-left: 0%;    
+    }
+    #aboutme {
+     
+        width: 100%;
+        padding: 50px;
+        text-justify: center;
+    }
+    #aboutmetext{
+        font-size: 24px;    
+    }
+    #call{
+        font-size: 24px;
+    }
+    
+    footer{
+       
+        width: 100%;
+       padding-top: 10px;    
+    /* overflow: auto; */
+      clear: both; 
+      bottom: 0;
+    }
+    #port_table{
+        display: block;
+    }
+    tr,td{
+        display: block;
+    }
+    
+}
