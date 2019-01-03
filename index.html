@@ -6,55 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Updated-Portfolio</title>
-
-    <link rel="stylesheet" type="text/css" href="assets/css/Reset.css">
+<!-- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <style>
+        h2{
+            font-family: cursive;
+        }
+        #bio-image1{
+            width: 200px;
+            border-radius: 75px;
+            height: 300px;
+        }
+        
+           
+        .footertext {
+            text-align: center;
+            margin-left: 650px;
+        }
+        footer{
+      
+    position: fixed;
+    width: 100%;
+   padding-top: 20px;    
+/* overflow: auto; */
+  clear: both; 
+  bottom: 0;
+}
+    </style>
 
 </head>
 
 <body>
- 
-        <header>
-            <section id="myname">
-                <h1>Kamakshi Anand</h1>
-            </section>
-            <h2>
-                <div id="right">
-                    <a href=".\contact.html">Contact</a>
-                </div>
-                <div id="middle">
-                    <a href=".\portfolio.html">Portfolio</a>
-                </div>
-                <div id="left">
-                    <a href=".\index.html">About</a>
-                </div>&nbsp;&nbsp;
-            </h2>
-        </header>
-    
+
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Kamakshi Anand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
-        <section id="main-bio">
-
-            <h2 id="aboutmetext">About Me</h2>
-            <hr>
-            <section id="aboutme">
+        <br>
+        <br>
+        <h2>About Me</h2>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
                 <img src="assets/Image/Roopa.png" alt="sample" id="bio-image1">
+            </div>
+            <div class="col-md-7">
+                I am a proud mother of 2 who is a hard working creative thinker. I have a bachelor's degree in Commerce
+                and accounting. I am passionate about arts and I teach kids Indian classical dance. Lastly, I am driven
+                by my desire to make a difference in people’s lives. In terms of where I am in my professional life,
+                I haven't worked full time in over 10 years due to various different reasons. Initially it was because
+                of my visa restrictions and later it was because I wanted to stay home with the kids. Now, I want to
+                have a career instead of just a job and I was looking for a structured course to help me get into the
+                IT industry. Here we are. :).
 
-                <p>I am a proud mother of 2 who is a hard working creative thinker. I have a bachelor's degree in Commerce
-                    and accounting. I am passionate about arts and I teach kids Indian classical dance. Lastly, I am driven
-                    by my desire to make a difference in people’s lives. In terms of where I am in my professional life,
-                    I haven't worked full time in over 10 years due to various different reasons. Initially it was because
-                    of my visa restrictions and later it was because I wanted to stay home with the kids. Now, I want to
-                    have a career instead of just a job and I was looking for a structured course to help me get into the
-                    IT industry. Here we are. :).
-                </p>
-            </section>
-        </section>
+            </div>
+        </div>
+        <hr>
     </div>
-    <footer>
-        <p id="footerlan">copy right -@Kamakshi Anand</p>
-    </footer>
+
 </body>
+<footer>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand footertext" href="#">copy right -@Kamakshi Anand</a>
+    </nav>
+
+</footer>
+
 
 </html>

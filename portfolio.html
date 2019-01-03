@@ -6,252 +6,436 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Updated-Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/Reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css"> -->
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
 
-    <style>
-        #two {
-            margin-right: 70px;
-        }
-
-        #five {
-            margin-right: 70px;
-        }
-
-        .card-title {
-            font-family: fantasy;
-        }
-    </style>
+        <!--  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> --> 
 
 
 </head>
 
 <body>
-    <header>
-        <section id="myname">
-            <h1>Kamakshi Anand</h1>
-        </section>
-        <h2>
-            <div id="right">
-                <a href=".\contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Kamakshi Anand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+                <a class="nav-item nav-link" href="./index.html">Home</a>
+                <!-- <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a> -->
+                <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
             </div>
-            <div id="middle">
-                <a href=".\portfolio.html">Portfolio</a>
+        </div>
+    </nav>
+
+    <h2 id="port">Portfolio</h2>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/Screenshot (55).png" class="bioimage">
+                <br>
+                
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#project1Modal"><b>Project-1
+                    </b></button>
+
+                <!-- Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="project1Modal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Trade Game</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/Screenshot (55).png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1-Trade-Game</h5>
+                                    <p class="card-text">
+                                        <b>Winds of Trade</b>
+                                        <br>
+                                        Trading Game
+                                        <br>
+
+                                        Trade goods around the world!
+                                    </p>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <a href="https://lighthawkknight.github.io/Trade-Game/" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
+
+                                    <a href="https://github.com/LighthawkKnight/Trade-Game.git" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="left">
-                <a href=".\index.html">About</a>
-            </div>&nbsp;&nbsp;
+
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/Screenshot (53).png" class="bioimage">
+                <br>
+                
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#gifModal"><b>Giftastic
+                    </b></button>
+
+                <!-- Button trigger modal -->
 
 
-        </h2>
-    </header>
-    <!-- <h2 id="port">Portfolio</h2> -->
-
-    <hr>
-    <section id="gallery1">
-        <table id="port_table">
-            <tr>
-                <div class="col-md-4">
-                    <td class="first">
-
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/Image/Burger.png" class="bioimage">
-                            <div class="card-body">
-                                <h5 class="card-title">Node Express Handlebars</h5>
-                                <p class="card-text">
-                                    The user may enter any burger name to add it to the menu. This also adds the new
-                                    burger
-                                    entry into the MySQL database. The initial burger entry is added as available on
-                                    the
-                                    menu and placed on the left side of the screen. The user may then eat any burger by
-                                    clicking on it, which moves it into the adjacent column and updates its status
-                                    accordingly in the database.
-                                </p>
+                <!-- Modal -->
+                <div class="modal fade" id="gifModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Giftastic</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/Screenshot (53).png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Giftastic</h5>
+                                    <p class="card-text">
+                                        In this assignment, I used the GIPHY API to make a dynamic web page that
+                                        populates
+                                        with
+                                        gifs of my choice. I called the GIPHY API and use JavaScript and jQuery to
+                                        change
+                                        the
+                                        HTML of the site.
+                                    </p>
+                                </div>
 
-                            <div class="card-body">
+                                <div class="card-body">
 
-                                <a href="https://github.com/kamakshi-anand/Burger" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
-                                        height="50">
-                                </a>
+                                    <a href="https://kamakshi-anand.github.io/GifTastic/index.html" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
 
-                                <a href="https://murmuring-beach-64049.herokuapp.com/" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                        height="50">
-                                </a>
+                                    <a href="https://github.com/kamakshi-anand/GifTastic/blob/master/README.md" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
                             </div>
-                        </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-
-                    </td>
-                </div>
-                <div class="col-md-4">
-                    <td>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/Image/Screenshot (55).png" class="bioimage">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 1-Trade-Game</h5>
-                                <p class="card-text">
-                                    <b>Winds of Trade</b>
-                                    <br>
-                                    Trading Game
-                                    <br>
-
-                                    Trade goods around the world!
-                                </p>
                             </div>
-
-                            <div class="card-body">
-
-                                <a href="https://lighthawkknight.github.io/Trade-Game/" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
-                                        height="50">
-                                </a>
-
-                                <a href="https://github.com/LighthawkKnight/Trade-Game.git" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                        height="50">
-                                </a>
-                            </div>
-                        </div>
-                    </td>
-                </div>
-                <div class="col-md-4">
-                    <td>
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/Image/hype.png" class="bioimage">
-                            <div class="card-body">
-                                <h5 class="card-title">Project2 HYPE</h5>
-                                <p class="card-text">
-                                    Hype is the dynamic playlist that utilizes Spotify to allow songs to change
-                                    according to the mood of the
-                                    room. The more people who like a song, the higher up it goes in the queue and the
-                                    better the party gets.
-                                </p>
-                            </div>
-
-                            <div class="card-body">
-
-                                <a href="https://github.com/Epiphamatic/Project-2" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
-                                        height="50">
-                                </a>
-
-                                <a href="https://obscure-garden-48741.herokuapp.com/" target="_blank">
-                                    <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                        height="50">
-                                </a>
-                            </div>
-                        </div>
-
-                    </td>
-                </div>
-            </tr>
-            <br>
-            <tr>
-                <td class="second">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/Image/Screenshot (53).png" class="bioimage">
-                        <div class="card-body">
-                            <h5 class="card-title">Giftastic</h5>
-                            <p class="card-text">
-                                In this assignment, I used the GIPHY API to make a dynamic web page that populates with
-                                gifs of my choice. I called the GIPHY API and use JavaScript and jQuery to change the
-                                HTML of the site.
-                            </p>
-                        </div>
-
-                        <div class="card-body">
-
-                            <a href="https://kamakshi-anand.github.io/GifTastic/index.html" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50">
-                            </a>
-
-                            <a href="https://github.com/kamakshi-anand/GifTastic/blob/master/README.md" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                    height="50">
-                            </a>
                         </div>
                     </div>
-                </td>
-                <td>
-                    <div class="card" id="five" style="width: 18rem;">
-                        <img src="assets/Image/Screenshot (54).png" class="bioimage">
-                        <div class="card-body">
-                            <h5 class="card-title">Train-Scheduler</h5>
-                            <p class="card-text">
-                                In this assignment, I create a train schedule application that incorporates Firebase to
-                                host arrival and departure data. The app will retrieve and manipulate this information
-                                with Moment.js. This website will provide up-to-date information about various trains,
-                                namely their arrival times and how many minutes remain until they arrive at their
-                                station.
-                            </p>
-                        </div>
-                        <div class="card-body">
+                </div>
+            </div>
 
-                            <a href="https://kamakshi-anand.github.io/Train-Scheduler/train.html" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50">
-                            </a>
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/Screenshot (54).png" class="bioimage">
+                
+                <br>
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#modalTrain"><b>Train-Scheduler
+                    </b></button>
 
-                            <a href="https://github.com/kamakshi-anand/Train-Scheduler" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                    height="50">
-                            </a>
+                <!-- Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalTrain" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Train-Scheduler</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/Screenshot (54).png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Train-Scheduler</h5>
+                                    <p class="card-text">
+                                        In this assignment, I create a train schedule application that incorporates
+                                        Firebase to
+                                        host arrival and departure data. The app will retrieve and manipulate this
+                                        information
+                                        with Moment.js. This website will provide up-to-date information about various
+                                        trains,
+                                        namely their arrival times and how many minutes remain until they arrive at
+                                        their
+                                        station.
+                                    </p>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <a href="https://kamakshi-anand.github.io/Train-Scheduler/train.html" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
+
+                                    <a href="https://github.com/kamakshi-anand/Train-Scheduler" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                </td>
-                <td>
-                    <div class="card" id="two" style="width: 18rem;">
-                        <img src="assets/Image/friendfinder.png" class="bioimage">
-                        <div class="card-body">
-                            <h5 class="card-title">Friend Finder</h5>
-                            <p class="card-text">
-                                Description Friend Finder implements friend matching based on the user's responses
-                                to a ten question survey. The user responds to questions with values from 1
-                                (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an
-                                existing user record closest to the current user's responses is found and returned.
-                                The closest set of user responses is defined as the set with the lowest absolute
-                                difference for all ten questions combined.
-                            </p>
-                        </div>
+        </div>
 
-                        <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/hype.png" class="bioimage">
+                
+                <br>
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#modalHype"><b>Project2-
+                        HYPE</b></button>
 
-                            <a href="https://github.com/kamakshi-anand/FriendFinder" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50" height="50">
-                            </a>
 
-                            <a href="https://serene-shore-62668.herokuapp.com/" target="_blank">
-                                <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png" width="50"
-                                    height="50">
-                            </a>
+                <!-- Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalHype" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Project2-Hype</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/hype.png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project2-Hype</h5>
+                                    <p class="card-text">
+                                        Hype is the dynamic playlist that utilizes Spotify to allow songs to
+                                        change
+                                        according to the mood of the
+                                        room. The more people who like a song, the higher up it goes in the
+                                        queue and
+                                        the
+                                        better the party gets.
+                                    </p>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <a href="https://github.com/Epiphamatic/Project-2" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
+
+                                    <a href="https://obscure-garden-48741.herokuapp.com/" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/friendfinder.png" class="bioimage">
+                
+                <br>
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#modalFriend"><b>Friend
+                        Finder
+                    </b></button>
+
+                <!-- Button trigger modal -->
 
 
+                <!-- Modal -->
+                <div class="modal fade" id="modalFriend" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Giftastic</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/friendfinder.png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Friend Finder</h5>
+                                    <p class="card-text">
+                                        Description Friend Finder implements friend matching based on the user's
+                                        responses
+                                        to a ten question survey. The user responds to questions with values from 1
+                                        (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an
+                                        existing user record closest to the current user's responses is found and
+                                        returned.
+                                        The closest set of user responses is defined as the set with the lowest
+                                        absolute
+                                        difference for all ten questions combined.
+                                    </p>
+                                </div>
 
-                </td>
-            </tr>
+                                <div class="card-body">
+
+                                    <a href="https://github.com/kamakshi-anand/FriendFinder" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
+
+                                    <a href="https://serene-shore-62668.herokuapp.com/" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <br>
+                <img src="assets/Image/Burger.png" class="bioimage">
+                <br>
+                
+                <button type="button" class="btn btn-light modalButton" data-toggle="modal" data-target="#modalBurger"><b>Burger
+                    </b></button>
+
+                <!-- Button trigger modal -->
 
 
+                <!-- Modal -->
+                <div class="modal fade" id="modalBurger" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><b>Eat Da Burger</b></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- <div class="card" style="width: 18rem;"> -->
+                                <img src="assets/Image/Burger.png" class="bioimage">
+                                <div class="card-body">
+                                    <h5 class="card-title">Eat Da Burger</h5>
+                                    <p class="card-text">
+                                        The user may enter any burger name to add it to the menu. This also adds the
+                                        new
+                                        burger
+                                        entry into the MySQL database. The initial burger entry is added as available
+                                        on
+                                        the
+                                        menu and placed on the left side of the screen. The user may then eat any
+                                        burger by
+                                        clicking on it, which moves it into the adjacent column and updates its status
+                                        accordingly in the database.
+                                    </p>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <a href="https://github.com/kamakshi-anand/Burger" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/Octocat/Octocat.jpg" width="50"
+                                            height="50">
+                                    </a>
+
+                                    <a href="https://murmuring-beach-64049.herokuapp.com/" target="_blank">
+                                        <img border="0" alt="Github" src="assets/Image/ui-g-external_link-512.png"
+                                            width="50" height="50">
+                                    </a>
+                                </div>
+
+                                <!-- </div> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
+    </div>
 
-
-        </table>
-
-    </section>
-    <br>
-    <br>
 
     <footer>
-        <p id="footerlan">copy right-@Kamakshi-Anand</p>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand footertext" href="#">copy right -@Kamakshi Anand</a>
+        </nav>
+
     </footer>
 </body>
 

@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 header {
-    background:#4aaaa5;       
+    /* background:#4aaaa5;        */
     font-size: 28px;   
     font-family: 'Georgia', Times, Times New Roman, serif;   
     height: 100px;    
@@ -20,14 +20,14 @@ h1{
     /* color: blue; */
 }
  #myname{
-    background:grey;  
+    /* background:grey;   */
     width: 20%;
     text-align: left;
     margin-left: 300px;
   }
 
  hr{
-     background-color: #fff;
+     /* background-color: #fff; */
      width: 100%;
  }
  h2{
@@ -63,7 +63,7 @@ h1{
 }
 body {
     
-        background-color : lightcoral;
+        /* background-color : lightcoral; */
         font: "Georgia",Times New Roman,Times,serif;
         /* color: #333333; */
         margin: 10;
@@ -90,13 +90,13 @@ p{
 }
 
 #aboutme {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 100%;
     padding: 50px;
     text-justify: center;
 }
 .datacontainer{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 75.5%;
     padding: 10px;
     text-justify: center;
@@ -140,7 +140,7 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 input[type=submit] {
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -148,11 +148,11 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+/* input[type=submit]:hover {
     background-color: #45a049;
-}
+} */
 footer{
-    background:#4aaaa5;       
+         
     position: fixed;
     width: 100%;
    padding-top: 20px;    
@@ -165,7 +165,13 @@ footer{
     
 }
 
+.modalButton{
+    margin-left: 25%;
+}
 
+.footertext {
+    text-align: center;
+    margin-left: 650px;
 
 
 

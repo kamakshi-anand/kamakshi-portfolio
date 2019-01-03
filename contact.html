@@ -6,57 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Updated-Portfolio</title>
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/Reset.css">    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
-   
+
+    <style>
+        h2{
+            font-family: cursive;
+        }
+        #bio-image1{
+            width: 200px;
+            border-radius: 75px;
+        }
+        .footertext {
+            text-align: center;
+            margin-left: 650px;
+           
+        }
+        footer{
+      
+    position: fixed;
+    width: 100%;
+   padding-top: 20px;    
+/* overflow: auto; */
+  clear: both; 
+  bottom: 0;
+}
+    </style>
+
 </head>
 
+
 <body>
-    <header>
-        <section id="myname">
-            <h1>Kamakshi Anand</h1>
-        </section>
-        <h2>
-            <div id="right">
-                <a href=".\contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Kamakshi Anand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                
+                <a class="nav-item nav-link" href="./index.html">Home</a>
+                <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
+                
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
             </div>
-            <div id="middle">
-                <a href=".\portfolio.html">Portfolio</a>
-            </div>
-            <div id="left">
-                <a href=".\index.html">About</a>
-            </div>&nbsp;&nbsp;
-
-
-        </h2>
-    </header>
+        </div>
+    </nav>
     <h2 id="call">Contact</h2>
     <hr>
 
-    <div class="datacontainer">
+    <div class="container">
         <form action="/#">
-          <label for="fname">First Name</label><br>
+          <label for="fname"><b>First Name</b></label><br>
           <input type="text" id="fname" name="firstname" size="35" placeholder="Your first name.."><br>
       
-          <label for="lname">Last Name</label><br>
+          <label for="lname"><b>Last Name</b></label><br>
           <input type="text" id="lname" name="lastname" size="35" placeholder="Your last name.."><br>
       
           
       
-          <label for="Message">Message</label><br>
+          <label for="Message"><b>Message</b></label><br>
           <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px;width: 400px"></textarea><br>
       
-          <input type="submit" value="Submit">
+          <input type="submit" class="btn-primary" value="Submit">
         </form>
       </div>
 
 
 
-    <footer>
+    <!-- <footer>
         <p id="footerlan">copy right-@Kamakshi Anand</p>
-    </footer>
+    </footer> -->
+
+    <footer>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand footertext" href="#">copy right -@Kamakshi Anand</a>
+            </nav>
+    
+        </footer>
 </body>
 
 </html>
